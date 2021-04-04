@@ -74,6 +74,9 @@ export default function SimpleTabs() {
             <TabPanel value={value} index={2}>
                 Item Three
       </TabPanel>
+            <TabPanel value={value} index={3}>
+                Item Four
+      </TabPanel>
         </div>
     );
 }

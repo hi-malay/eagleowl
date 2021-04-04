@@ -11,16 +11,18 @@ import { ContextMain } from "../../common/Drawer/ContextMain"
 import axios from "axios"
 import { API } from '../../common/Drawer/constant';
 import CircularProgress from "@material-ui/core/CircularProgress";
+import Pagination from '@material-ui/lab/Pagination';
 
 const Privateroute = withRouter((props) => {
     const [userData, setUserData] = useState([]);
     const [isValid, setIsValid] = useState(false);
     const [isReferValid, setReferValid] = React.useState(false);
+    const [page, setPage] = React.useState(1);
 
     const mainApi = () => {
 
 
-        axios.get(API.main_url).then((response) => {
+        axios.get(`${API.main_url}?page=${page}`).then((response) => {
             if (response.data) {
                 setUserData(response.data)
                 setIsValid(true)
@@ -35,11 +37,15 @@ const Privateroute = withRouter((props) => {
 
     }
 
+    const handleChange = (event, value) => {
+        setPage(value);
+        mainApi()
+    };
+
     useEffect(() => {
         mainApi()
+
     }, [])
-
-
 
     if (true) {
         if (Object.keys(userData).length > 0) {
@@ -52,6 +58,7 @@ const Privateroute = withRouter((props) => {
                                     <CardContent >
                                         <div className="col-md-12 mt-3">
                                             <props.component />
+                                            <Pagination count={4} className="margin-top" page={page} onChange={handleChange} />
                                         </div>
                                     </CardContent>
                                 </Card>

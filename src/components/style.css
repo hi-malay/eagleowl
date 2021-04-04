@@ -247,6 +247,19 @@ td.MuiTableCell-root.MuiTableCell-footer.MuiTablePagination-root {
     font-weight: bold;
 }
 
+.MuiTableRow-root.MuiTableRow-footer {
+    display: none !important;
+}
+
+.MuiPagination-ul {
+    margin: 20px !important;
+
+}
+
+.MuiTableBody-root tr:hover {
+    background-color: rgb(247, 231, 231);
+}
+
 @media (max-width: 991px) {
     .drawer-visible-xs {
         display: inline-flex !important;

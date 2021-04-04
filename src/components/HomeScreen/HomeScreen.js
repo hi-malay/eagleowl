@@ -5,7 +5,14 @@ import { ContextMain } from "../common/Drawer/ContextMain"
 import { createTable } from "../common/Drawer/Helperfunction"
 import Chip from '@material-ui/core/Chip';
 
+
 class HomeScreen extends Component {
+    constructor() {
+        super()
+        this.state = {
+            value: 1,
+        }
+    }
 
     componentDidMount = () => {
         console.log("context", this.context.userData[0].results)
@@ -53,23 +60,26 @@ class HomeScreen extends Component {
                             { title: 'COST PRICE%', field: 'cost_price', },
                             { title: 'SALE PRICE%', field: 'sale_price', },
                             { title: 'CROSS MARGIN%', field: 'gross_margin', },
-                            { title: 'TAGS / ACTIONS', field: 'manufacturing_outlet', },
+                            { title: 'TAGS / ACTIONS', field: 'manufacturing_outlet', }
                         ]}
 
                         data={dataDump}
+
                         options={{
                             sorting: true,
                             paginationType: "stepped",
-
                             paging: true,
                             selection: true,
                             filtering: false,
                             showTitle: false,
                             toolbar: true,
                             emptyRowsWhenPaging: false,
-                            pageSize: 5,
+                            pageSize: 10,
                         }}
                     />
+
+
+
                 </Card>
             </div>
         );
