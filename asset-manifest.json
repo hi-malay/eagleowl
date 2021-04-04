@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eagleowl/static/css/main.a0b264dd.chunk.css",
-    "main.js": "/eagleowl/static/js/main.72643668.chunk.js",
-    "main.js.map": "/eagleowl/static/js/main.72643668.chunk.js.map",
+    "main.js": "/eagleowl/static/js/main.faf8f2c7.chunk.js",
+    "main.js.map": "/eagleowl/static/js/main.faf8f2c7.chunk.js.map",
     "runtime-main.js": "/eagleowl/static/js/runtime-main.01a43aeb.js",
     "runtime-main.js.map": "/eagleowl/static/js/runtime-main.01a43aeb.js.map",
     "static/js/2.93973e75.chunk.js": "/eagleowl/static/js/2.93973e75.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.01a43aeb.js",
     "static/js/2.93973e75.chunk.js",
     "static/css/main.a0b264dd.chunk.css",
-    "static/js/main.72643668.chunk.js"
+    "static/js/main.faf8f2c7.chunk.js"
   ]
 }
