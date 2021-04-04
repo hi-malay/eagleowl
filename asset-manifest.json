@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/eagleowl/static/css/main.a0b264dd.chunk.css",
-    "main.js": "/eagleowl/static/js/main.faf8f2c7.chunk.js",
-    "main.js.map": "/eagleowl/static/js/main.faf8f2c7.chunk.js.map",
+    "main.css": "/eagleowl/static/css/main.83b8c5af.chunk.css",
+    "main.js": "/eagleowl/static/js/main.d2ae2fa1.chunk.js",
+    "main.js.map": "/eagleowl/static/js/main.d2ae2fa1.chunk.js.map",
     "runtime-main.js": "/eagleowl/static/js/runtime-main.01a43aeb.js",
     "runtime-main.js.map": "/eagleowl/static/js/runtime-main.01a43aeb.js.map",
-    "static/js/2.93973e75.chunk.js": "/eagleowl/static/js/2.93973e75.chunk.js",
-    "static/js/2.93973e75.chunk.js.map": "/eagleowl/static/js/2.93973e75.chunk.js.map",
+    "static/js/2.9c017b11.chunk.js": "/eagleowl/static/js/2.9c017b11.chunk.js",
+    "static/js/2.9c017b11.chunk.js.map": "/eagleowl/static/js/2.9c017b11.chunk.js.map",
     "static/js/3.be68b11a.chunk.js": "/eagleowl/static/js/3.be68b11a.chunk.js",
     "static/js/3.be68b11a.chunk.js.map": "/eagleowl/static/js/3.be68b11a.chunk.js.map",
     "static/js/4.66ef682b.chunk.js": "/eagleowl/static/js/4.66ef682b.chunk.js",
@@ -16,8 +16,8 @@
     "static/js/6.4c32c6b8.chunk.js": "/eagleowl/static/js/6.4c32c6b8.chunk.js",
     "static/js/6.4c32c6b8.chunk.js.map": "/eagleowl/static/js/6.4c32c6b8.chunk.js.map",
     "index.html": "/eagleowl/index.html",
-    "static/css/main.a0b264dd.chunk.css.map": "/eagleowl/static/css/main.a0b264dd.chunk.css.map",
-    "static/js/2.93973e75.chunk.js.LICENSE.txt": "/eagleowl/static/js/2.93973e75.chunk.js.LICENSE.txt",
+    "static/css/main.83b8c5af.chunk.css.map": "/eagleowl/static/css/main.83b8c5af.chunk.css.map",
+    "static/js/2.9c017b11.chunk.js.LICENSE.txt": "/eagleowl/static/js/2.9c017b11.chunk.js.LICENSE.txt",
     "static/js/3.be68b11a.chunk.js.LICENSE.txt": "/eagleowl/static/js/3.be68b11a.chunk.js.LICENSE.txt",
     "static/js/4.66ef682b.chunk.js.LICENSE.txt": "/eagleowl/static/js/4.66ef682b.chunk.js.LICENSE.txt",
     "static/js/5.c7acff12.chunk.js.LICENSE.txt": "/eagleowl/static/js/5.c7acff12.chunk.js.LICENSE.txt",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.01a43aeb.js",
-    "static/js/2.93973e75.chunk.js",
-    "static/css/main.a0b264dd.chunk.css",
-    "static/js/main.faf8f2c7.chunk.js"
+    "static/js/2.9c017b11.chunk.js",
+    "static/css/main.83b8c5af.chunk.css",
+    "static/js/main.d2ae2fa1.chunk.js"
   ]
 }
