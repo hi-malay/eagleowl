@@ -29,7 +29,7 @@ class HomeScreen extends Component {
                     variant="outlined"
                 />
                 <Chip
-                    className="mt-2"
+                    className="mt-2 ml-2"
                     label={obj}
                     clickable
                     color="secondary"
