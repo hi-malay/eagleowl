@@ -10,22 +10,24 @@ import "../../style.css"
 import { ContextMain } from "../../common/Drawer/ContextMain"
 import axios from "axios"
 import { API } from '../../common/Drawer/constant';
-import CircularProgress from "@material-ui/core/CircularProgress";
+
 import Pagination from '@material-ui/lab/Pagination';
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 const Privateroute = withRouter((props) => {
     const [userData, setUserData] = useState([]);
     const [isValid, setIsValid] = useState(false);
     const [isReferValid, setReferValid] = React.useState(false);
     const [page, setPage] = React.useState(1);
+    const [loader, setLoader] = React.useState(false);
 
     const mainApi = () => {
-
-
+        setLoader(true)
         axios.get(`${API.main_url}?page=${page}`).then((response) => {
             if (response.data) {
                 setUserData(response.data)
                 setIsValid(true)
+                setLoader(false)
                 console.log("byr2", response.data)
             }
             else {
@@ -57,8 +59,11 @@ const Privateroute = withRouter((props) => {
                                 <Card className="custom-card card-dashboard">
                                     <CardContent >
                                         <div className="col-md-12 mt-3">
-                                            <props.component />
-                                            <Pagination count={4} className="margin-top" page={page} onChange={handleChange} />
+                                            {loader ? <>   <div className="Circular-Progress">
+                                                <CircularProgress color="inherit" />
+                                            </div></> : <>   <props.component />
+                                                <Pagination count={4} className="margin-top" page={page} onChange={handleChange} /></>}
+
                                         </div>
                                     </CardContent>
                                 </Card>

@@ -13,7 +13,7 @@ class IndexRouter extends Component {
     render() {
         return (
             <div>
-                <Router basename="/template">
+                <Router basename="/eagleowl">
                     <Switch>
                         <PrivateRoute path="/home" component={Tabs} />
                         <Route path="/" component={Login} />
