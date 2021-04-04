@@ -69,13 +69,13 @@ export default function SimpleTabs() {
                 <Home />
             </TabPanel>
             <TabPanel value={value} index={1}>
-                Item Two
+                No Incorrect
       </TabPanel>
             <TabPanel value={value} index={2}>
-                Item Three
+                No Untagged
       </TabPanel>
             <TabPanel value={value} index={3}>
-                Item Four
+                None Disabled
       </TabPanel>
         </div>
     );
