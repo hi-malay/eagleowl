@@ -260,6 +260,25 @@ td.MuiTableCell-root.MuiTableCell-footer.MuiTablePagination-root {
     background-color: rgb(247, 231, 231);
 }
 
+.margin-card {
+    margin: 50px;
+}
+
+.circular-margin {
+    margin: 20px;
+}
+
+.radius-card div:first-child {
+    border: 1px solid rgb(201, 195, 195);
+    padding: 10px;
+}
+
+.header-main {
+    font-size: 16px;
+    font-style: oblique;
+    color: rgb(163, 106, 238);
+}
+
 @media (max-width: 991px) {
     .drawer-visible-xs {
         display: inline-flex !important;

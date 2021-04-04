@@ -4,6 +4,7 @@ import CustomTable from '../common/Drawer/customTable/customTable'
 import { ContextMain } from "../common/Drawer/ContextMain"
 import { createTable } from "../common/Drawer/Helperfunction"
 import Chip from '@material-ui/core/Chip';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 
 class HomeScreen extends Component {
@@ -50,7 +51,34 @@ class HomeScreen extends Component {
         const dataDump = createTable(this.context.userData[0].results, this.setAction, this.conDate)
         return (
             <div>
-                <Card>
+                <div className="row margin-card">
+                    <div className="col-md-3 offset-1 mr-5 radius-card">
+                        <Card>
+                            <h2 className="header-main">High margin Recipes</h2>
+                            <CircularProgress variant="determinate" value={25} className="circular-margin" />
+                            <CircularProgress variant="determinate" value={75} className="circular-margin" />
+                            <CircularProgress variant="determinate" value={55} className="circular-margin" />
+                        </Card>
+                    </div>
+                    <div className="col-md-3 mr-5 radius-card">
+                        <Card>
+                            <h2 className="header-main">Low margin Recipes</h2>
+                            <CircularProgress variant="determinate" value={45} className="circular-margin" />
+                            <CircularProgress variant="determinate" value={85} className="circular-margin" />
+                            <CircularProgress variant="determinate" value={55} className="circular-margin" />
+                        </Card>
+                    </div>
+                    <div className="col-md-3 mr-5 radius-card ">
+                        <Card>
+                            <h2 className="header-main">Top fluctuating Recipes</h2>
+                            <CircularProgress variant="determinate" value={65} className="circular-margin" />
+                            <CircularProgress variant="determinate" value={35} className="circular-margin" />
+                            <CircularProgress variant="determinate" value={45} className="circular-margin" />
+                        </Card>
+                    </div>
+                </div>
+
+                <Card >
                     <CustomTable
                         title=""
                         columns={[
