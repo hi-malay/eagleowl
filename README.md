@@ -1,4 +1,4 @@
-## Payment Wallet
+## Eagle Owl
 
 ### Demo link: "https://hi-malay.github.io/eagleowl/"
 
