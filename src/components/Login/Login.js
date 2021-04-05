@@ -47,7 +47,7 @@ export default function OutlinedCard() {
                 <Link to={`/home`} className="login-button">  <Button variant="contained" className="btn-class mt-4" color="primary" >Login</Button></Link>
             </CardContent>
             <CardActions>
-                <Button size="small">By: Malay Mishra</Button>
+                <Button size="small">By: Aniket Jain</Button>
             </CardActions>
         </Card>
     );
