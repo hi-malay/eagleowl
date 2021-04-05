@@ -52,7 +52,7 @@ class HomeScreen extends Component {
         return (
             <div>
                 <div className="row margin-card">
-                    <div className="col-md-3 offset-1 mr-5 radius-card">
+                    <div className="col-md-4  radius-card">
                         <Card>
                             <h2 className="header-main">High margin Recipes</h2>
                             <CircularProgress variant="determinate" value={25} className="circular-margin" />
@@ -60,7 +60,7 @@ class HomeScreen extends Component {
                             <CircularProgress variant="determinate" value={55} className="circular-margin" />
                         </Card>
                     </div>
-                    <div className="col-md-3 mr-5 radius-card">
+                    <div className="col-md-4  radius-card">
                         <Card>
                             <h2 className="header-main">Low margin Recipes</h2>
                             <CircularProgress variant="determinate" value={45} className="circular-margin" />
@@ -68,7 +68,7 @@ class HomeScreen extends Component {
                             <CircularProgress variant="determinate" value={55} className="circular-margin" />
                         </Card>
                     </div>
-                    <div className="col-md-3 mr-5 radius-card ">
+                    <div className="col-md-4 radius-card ">
                         <Card>
                             <h2 className="header-main">Top fluctuating Recipes</h2>
                             <CircularProgress variant="determinate" value={65} className="circular-margin" />
