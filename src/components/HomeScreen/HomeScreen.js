@@ -106,8 +106,6 @@ class HomeScreen extends Component {
                         }}
                     />
 
-
-
                 </Card>
             </div>
         );
