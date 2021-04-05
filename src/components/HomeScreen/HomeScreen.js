@@ -52,28 +52,62 @@ class HomeScreen extends Component {
         return (
             <div>
                 <div className="row margin-card">
-                    <div className="col-md-4  radius-card">
+                    <div className="col-md-4  ">
                         <Card>
                             <h2 className="header-main">High margin Recipes</h2>
-                            <CircularProgress variant="determinate" value={25} className="circular-margin" />
-                            <CircularProgress variant="determinate" value={75} className="circular-margin" />
-                            <CircularProgress variant="determinate" value={55} className="circular-margin" />
+                            <div className="row mt-4">
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Ambur Biryani</h2>
+                                    <CircularProgress variant="determinate" value={45} className="circular-margin" />
+                                </div>
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Panner Biryani</h2>
+                                    <CircularProgress variant="determinate" value={25} className="circular-margin" />
+                                </div>
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Paneer Butter Masala</h2>
+                                    <CircularProgress variant="determinate" value={75} className="circular-margin" />
+                                </div>
+                            </div>
+
                         </Card>
                     </div>
-                    <div className="col-md-4  radius-card">
+                    <div className="col-md-4  ">
                         <Card>
                             <h2 className="header-main">Low margin Recipes</h2>
-                            <CircularProgress variant="determinate" value={45} className="circular-margin" />
-                            <CircularProgress variant="determinate" value={85} className="circular-margin" />
-                            <CircularProgress variant="determinate" value={55} className="circular-margin" />
+                            <div className="row mt-4">
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Ambur Biryani</h2>
+                                    <CircularProgress variant="determinate" value={85} color="secondary" className="circular-margin" />
+                                </div>
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Panner Biryani</h2>
+                                    <CircularProgress variant="determinate" value={55} color="secondary" className="circular-margin" />
+                                </div>
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Paneer Butter Masala</h2>
+                                    <CircularProgress variant="determinate" value={48} color="secondary" className="circular-margin" />
+                                </div>
+                            </div>
                         </Card>
                     </div>
-                    <div className="col-md-4 radius-card ">
+                    <div className="col-md-4  ">
                         <Card>
                             <h2 className="header-main">Top fluctuating Recipes</h2>
-                            <CircularProgress variant="determinate" value={65} className="circular-margin" />
-                            <CircularProgress variant="determinate" value={35} className="circular-margin" />
-                            <CircularProgress variant="determinate" value={45} className="circular-margin" />
+                            <div className="row mt-4">
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Ambur Biryani</h2>
+                                    <CircularProgress variant="determinate" value={29} className="circular-margin" />
+                                </div>
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Panner Biryani</h2>
+                                    <CircularProgress variant="determinate" value={45} className="circular-margin" />
+                                </div>
+                                <div className="col-md-4">
+                                    <h2 className="food-label">Paneer Butter Masala</h2>
+                                    <CircularProgress variant="determinate" value={34} className="circular-margin" />
+                                </div>
+                            </div>
                         </Card>
                     </div>
                 </div>
